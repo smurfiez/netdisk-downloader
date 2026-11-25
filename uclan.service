@@ -1,0 +1,10 @@
+[Unit]
+Description=UC share -> LAN downloader
+After=network-online.target
+[Service]
+User=dave
+WorkingDirectory=/home/dave/uclan
+ExecStart=/usr/bin/python3 /home/dave/uclan/uc_lan.py --port 8517 --dir /home/dave/uc-downloads
+Restart=always
+[Install]
+WantedBy=multi-user.target
