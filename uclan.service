@@ -1,5 +1,5 @@
 [Unit]
-Description=UC share -> LAN downloader
+Description=Netdisk share -> LAN downloader
 After=network-online.target
 [Service]
 User=dave
