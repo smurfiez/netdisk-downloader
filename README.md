@@ -69,3 +69,8 @@ logged-in UC cookie would be several times faster (not implemented).
 - UC is pinned to `pr=UCBrowser&fr=pc&sys=darwin&ve=1.8.6`; Quark needs
   `pr=ucpro` on `drive-pc.quark.cn` (the UC host returns `41027` for those
   params).
+
+## License
+
+MIT
+
